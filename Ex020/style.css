@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+body{
+    background-color: #F2C1AE;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: chocolate;
+}
+
+a::before{
+    color: #F2865E;
+}
+
+a#brendal{
+    color: black;
+}
+
+a#pedrol{
+    color: black;
+}
+
+a#fozhopl{
+    color: black;
+}
+
+a#denturel{
+    color: black
+}
+
+h1{
+    color: white;
+    background-color: #F2865E;
+    text-align: center;
+    text-decoration: underline;
+}
+
+li{
+    text-align: center;
+    list-style: none;
+    background-color: #F2865E;
+}
+
+li#brenda{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px
+}
+
+li#pedro{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px
+    
+}
+
+li#denture{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px
+}
+
+li#fozhop{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px
+}

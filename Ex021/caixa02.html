@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgray;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+
+        section{
+            background-color: rgb(133, 130, 130);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        section > p{
+            font-weight: bold;
+        }
+
+        nav{
+            background-color: rgb(87, 87, 87);
+            padding: 3px;
+            box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.562)
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 2px;
+        }
+
+        article > aside{
+            background-color: rgb(133, 130, 130);
+            text-align: right;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px
+        }
+    </style>
+</head>
+<body>
+   <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="h">Link</a>
+            <a href="g">Link</a>
+            <a href="f">Link</a>
+            <a href="e">Link</a>
+            <a href="a">Link</a>
+        </nav>
+   </header>
+   <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quos nulla quia ea, excepturi recusandae delectus ipsam, non eum, ratione totam dolores consectetur vitae hic quidem eius nobis saepe maxime.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iusto facilis repellat soluta inventore sequi velit impedit, quidem tempore ut, fuga sint quo error quod quos? Temporibus necessitatibus harum ipsa!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti tempore illo assumenda! Beatae, officia nemo aperiam architecto ut culpa. Molestiae voluptate commodi atque, aliquid ea tenetur itaque veritatis illum modi!</p>
+                <h2>Flamengo</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa veritatis laudantium suscipit quas, numquam quia ut voluptates omnis nihil? Magni deserunt laudantium soluta sunt facilis, veritatis veniam nemo consequatur unde.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, tenetur vel. Asperiores ratione, doloremque amet nostrum laborum voluptatem est quia recusandae deleniti beatae similique saepe officiis cupiditate nihil maxime tempore.</p>
+                <h2>Novo Processador Intel rompe barreiras de desempenho</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus qui animi nesciunt! Reiciendis, tempore minima nam molestiae exercitationem tempora, mollitia obcaecati cumque voluptatibus natus expedita voluptatem cum vel quae perspiciatis?</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, sed vero. Blanditiis sint fuga amet consectetur. Deleniti quis facilis voluptatibus vitae nostrum perferendis in, soluta expedita voluptates dolorem consectetur labore?</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, adipisci dolore quam, aut quis provident optio, possimus quo eaque perspiciatis corporis! Quaerat sunt praesentium, nisi a consequatur reprehenderit doloribus perferendis?</p>
+                <aside>
+                    <p>Artigo escrito por Pedro Arnor</p>
+                </aside>
+            </article>
+
+        </section>
+   </main>
+   <footer>
+        <p>Desenvolvido pelo Pedro Oliveira</p>
+   </footer>
+
+</body>
+</html>
